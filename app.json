@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Money Dealer",
+    "slug": "money_dealer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#161622",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "Derive.apk"
+    },
+    "android": {
+      "backgroundColor": "#161622",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/derive-icon.png",
+        "backgroundColor": "#161622"
+      },
+      "package": "Derive.apk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
